@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEFEFE"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/WEATHERView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THE WEATHER FORECAST CHANNEL"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <TextView
+        android:id="@+id/SStextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Screen Smart"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="278dp" />
+
+    <TextView
+        android:id="@+id/NAMEtextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:Lebogang mamadi"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <Button
+        android:id="@+id/ENTERbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENTER"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="537dp" />
+
+    <ImageView
+        android:id="@+id/LOGOimageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/weather_forecast_logo_file_free_vector"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <TextView
+        android:id="@+id/STNUMtextView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ST10450053"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <Button
+        android:id="@+id/EXITbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EXIT"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="596dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
